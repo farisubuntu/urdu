@@ -1,0 +1,66 @@
+@import url('../fonts.css');
+
+body{
+ font-family: 'Noto Naskh Arabic',serif;
+ /* font-size: ; */
+}
+
+  td>p {
+   color: green;
+   margin: unset;
+  }
+
+  .urdu {
+   color: brown;
+   direction: rtl;
+  }
+  td>img{
+   min-width:100%;
+  }
+
+  article{
+   direction: rtl;
+   border:1px solid green;
+   padding:5px;
+  }
+
+  i.bi{
+   font-size: 28px;
+  }
+  thead{
+   color:white;
+   background-color: rgb(55, 55, 117);
+  }
+  
+.table{
+ color:green;
+ /* min-width: 100%!important; */
+}
+.interactive-content *{
+ color:white;
+ background-color: rgb(96, 75, 79);
+ overflow-wrap: break-word;
+}
+h1{
+ background-color: rgb(59, 59, 157);;
+ color:white;
+ padding:0.5rem;
+}
+h2{
+ background-color: #28A745;
+ color:white;
+ padding:1rem;
+}
+
+
+
+img.size-full{
+ max-width: 400px!important;
+ /* max-height: 400px!important; */
+}
+
+/* chapter images */
+
+p:has(.aligncenter){
+ text-align: center;
+}

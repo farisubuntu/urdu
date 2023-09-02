@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE kvtml PUBLIC "kvtml2.dtd" "http://edu.kde.org/kvtml/kvtml2.dtd">
+<kvtml version="2.0">
+  <information>
+    <generator>kwordquiz 21.12.3</generator>
+    <title>how_to_say.kvtml</title>
+    <date>2023-07-23</date>
+  </information>
+  <identifiers>
+    <identifier id="0">
+      <name>Column 1</name>
+      <locale>en</locale>
+    </identifier>
+    <identifier id="1">
+      <name>Column 2</name>
+      <locale>en</locale>
+    </identifier>
+  </identifiers>
+  <entries>
+    <entry id="0">
+      <translation id="0">
+        <text>!میں نہیں جانتا</text>
+      </translation>
+      <translation id="1">
+        <text>لا أعرف</text>
+      </translation>
+    </entry>
+    <entry id="1">
+      <translation id="0">
+        <text>کیا یہ غلط ہے ؟</text>
+      </translation>
+      <translation id="1">
+        <text>هل هذا خطأ؟</text>
+      </translation>
+    </entry>
+    <entry id="2">
+      <translation id="0">
+        <text>کیا یہ ٹھیک ہے ؟</text>
+      </translation>
+      <translation id="1">
+        <text>هل هذا صحيح؟</text>
+      </translation>
+    </entry>
+    <entry id="3">
+      <translation id="0">
+        <text>!کوئی مسئلہ نہیں</text>
+      </translation>
+      <translation id="1">
+        <text>ليس هناك أي مشكل</text>
+      </translation>
+    </entry>
+    <entry id="4">
+      <translation id="0">
+        <text>اس لفظ کا انگریزی میں کیا مطلب ہے ؟</text>
+      </translation>
+      <translation id="1">
+        <text>ماذا تعني هذه الكلمة بالإنجليزية؟</text>
+      </translation>
+    </entry>
+    <entry id="5">
+      <translation id="0">
+        <text>یہ کیا ہے ؟</text>
+      </translation>
+      <translation id="1">
+        <text>ما هذا؟</text>
+      </translation>
+    </entry>
+    <entry id="6">
+      <translation id="0">
+        <text>مجھے کیا کہنا چاہئیے ؟</text>
+      </translation>
+      <translation id="1">
+        <text>ماذا يجب أن أقول؟</text>
+      </translation>
+    </entry>
+    <entry id="7">
+      <translation id="0">
+        <text>!برائے مہربانی تحریر کریں</text>
+      </translation>
+      <translation id="1">
+        <text>إكتبها من فضلك</text>
+      </translation>
+    </entry>
+    <entry id="8">
+      <translation id="0">
+        <text>کیا آپ میری بات سمجھ گئے ؟</text>
+      </translation>
+      <translation id="1">
+        <text>هل فهمت ما قلته؟</text>
+      </translation>
+    </entry>
+    <entry id="9">
+      <translation id="0">
+        <text>میری فرانسیسی بری ہے</text>
+      </translation>
+      <translation id="1">
+        <text>لغتي الفرنسية ليست جيدة</text>
+      </translation>
+    </entry>
+    <entry id="10">
+      <translation id="0">
+        <text>یہ کتنی دور ہے؟</text>
+      </translation>
+      <translation id="1">
+        <text>كم هو بعده؟</text>
+      </translation>
+    </entry>
+    <entry id="11">
+      <translation id="0">
+        <text>کیا وقت ہوا ہے؟</text>
+      </translation>
+      <translation id="1">
+        <text>كم الساعة؟</text>
+      </translation>
+    </entry>
+    <entry id="12">
+      <translation id="0">
+        <text>یہ کیوں مہنگا ہے؟</text>
+      </translation>
+      <translation id="1">
+        <text>لماذا هي مكلفة؟</text>
+      </translation>
+    </entry>
+    <entry id="13">
+      <translation id="0">
+        <text>(آپ کیسے ہیں ؟ (مہذبانہ</text>
+      </translation>
+      <translation id="1">
+        <text>كيف حالك؟</text>
+      </translation>
+    </entry>
+    <entry id="14">
+      <translation id="0">
+        <text>کیا ہو رہا ہے؟</text>
+      </translation>
+      <translation id="1">
+        <text>ما الجديد؟</text>
+      </translation>
+    </entry>
+    <entry id="15">
+      <translation id="0">
+        <text>کچھ نیا نہیں</text>
+      </translation>
+      <translation id="1">
+        <text>لا شي جديد</text>
+      </translation>
+    </entry>
+    <entry id="16">
+      <translation id="0">
+        <text>!میں ٹھیک ہوں، شکریہ</text>
+      </translation>
+      <translation id="1">
+        <text>أنا بخير ,شكرا لك</text>
+      </translation>
+    </entry>
+    <entry id="17">
+      <translation id="0">
+        <text>اور آپ؟</text>
+      </translation>
+      <translation id="1">
+        <text>و أنت؟</text>
+      </translation>
+    </entry>
+    <entry id="18">
+      <translation id="0">
+        <text>اور تم؟</text>
+      </translation>
+      <translation id="1">
+        <text>و أنتم؟</text>
+      </translation>
+    </entry>
+    <entry id="19">
+      <translation id="0">
+        <text>اس کی ایک بہن ہے</text>
+      </translation>
+      <translation id="1">
+        <text>هي لديها أخت واحدة</text>
+      </translation>
+    </entry>
+    <entry id="20">
+      <translation id="0">
+        <text>!خوش آمديد</text>
+      </translation>
+      <translation id="1">
+        <text>أهلا وسهلا</text>
+      </translation>
+    </entry>
+    <entry id="21">
+      <translation id="0">
+        <text>!بعد میں ملیں گے</text>
+      </translation>
+      <translation id="1">
+        <text>أراك لاحقا</text>
+      </translation>
+    </entry>
+    <entry id="22">
+      <translation id="0">
+        <text>آپ سے بات کرنااچھالگا</text>
+      </translation>
+      <translation id="1">
+        <text>سعيد بالتحدث إليك</text>
+      </translation>
+    </entry>
+    <entry id="23">
+      <translation id="0">
+        <text>کیا میں صحیح ہوں یا غلط؟</text>
+      </translation>
+      <translation id="1">
+        <text>هل أنا محق أم مخطئ؟</text>
+      </translation>
+    </entry>
+    <entry id="24">
+      <translation id="0">
+        <text>یہ بہت مہنگا ہے</text>
+      </translation>
+      <translation id="1">
+        <text>هذا مكلف جدا</text>
+      </translation>
+    </entry>
+    <entry id="25">
+      <translation id="0">
+        <text>نیا کیا ہے؟</text>
+      </translation>
+      <translation id="1">
+        <text>ما الجديد؟</text>
+      </translation>
+    </entry>
+    <entry id="26">
+      <translation id="0">
+        <text>کچھ نیا نہیں</text>
+      </translation>
+      <translation id="1">
+        <text>لا شي جديد</text>
+      </translation>
+    </entry>
+    <entry id="27">
+      <translation id="0">
+        <text>کیا آپ مجھے دکھا سکتے ہیں؟</text>
+      </translation>
+      <translation id="1">
+        <text>هل تستطيع أن تريني؟</text>
+      </translation>
+    </entry>
+    <entry id="28">
+      <translation id="0">
+        <text>!ایک لمحہ روکیئے</text>
+      </translation>
+      <translation id="1">
+        <text>لحظة من فضلك</text>
+      </translation>
+    </entry>
+    <entry id="29">
+      <translation id="0"/>
+      <translation id="1"/>
+    </entry>
+    <entry id="30">
+      <translation id="0"/>
+      <translation id="1"/>
+    </entry>
+    <entry id="31">
+      <translation id="0"/>
+      <translation id="1"/>
+    </entry>
+    <entry id="32">
+      <translation id="0"/>
+      <translation id="1"/>
+    </entry>
+    <entry id="33">
+      <translation id="0"/>
+      <translation id="1"/>
+    </entry>
+    <entry id="34">
+      <translation id="0"/>
+      <translation id="1"/>
+    </entry>
+    <entry id="35">
+      <translation id="0"/>
+      <translation id="1"/>
+    </entry>
+    <entry id="36">
+      <translation id="0"/>
+      <translation id="1"/>
+    </entry>
+    <entry id="37">
+      <translation id="0"/>
+      <translation id="1"/>
+    </entry>
+    <entry id="38">
+      <translation id="0"/>
+      <translation id="1"/>
+    </entry>
+    <entry id="39">
+      <translation id="0"/>
+      <translation id="1"/>
+    </entry>
+    <entry id="40">
+      <translation id="0"/>
+      <translation id="1"/>
+    </entry>
+    <entry id="41">
+      <translation id="0"/>
+      <translation id="1"/>
+    </entry>
+    <entry id="42">
+      <translation id="0"/>
+      <translation id="1"/>
+    </entry>
+  </entries>
+</kvtml>

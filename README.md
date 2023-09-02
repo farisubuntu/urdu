@@ -1,2 +1,2 @@
-# urdu-basics
-urdu-basics book
+# urdu
+any things related to Urdu Language

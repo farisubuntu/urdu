@@ -1,0 +1,103 @@
+@import url('fonts.css');
+
+body {
+   /*
+font-family: 'Aref Ruqaa', serif;
+font-family: 'Gulzar', serif;
+font-family: 'Noto Naskh Arabic', serif;
+font-family: 'Noto Nastaliq Urdu', serif;
+ */
+font-family: 'Aref Ruqaa', serif;
+padding: 10px;
+   /* font-size: 16px; */
+   /* line-height: normal; */
+   /* margin:1.4em */
+  }
+
+  body {
+   display: flex;
+   flex-direction: column;
+   justify-content:flex-start;
+  }
+
+  p,
+  h3,
+  h4,
+  .larger,
+  li,
+  td
+  {
+   font-size: clamp(1rem, 0.5rem + 2.5vw, 3rem);
+  }
+tr td{
+ border:1px solid black;
+}
+  h2 {
+   color: green;
+   border: 1px solid skyblue;
+   margin-top: 2vh;
+  }
+
+  h3 {
+   border: 1px solid rgb(20, 122, 162);
+   border-radius: 15px 50px 30px;
+
+   padding: 10px;
+  }
+
+  h5 {
+   color: blue;
+  }
+
+  /* classes styles */
+  .example-box {
+   border: 1px dashed rgb(99, 58, 7);
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   /* max-height: max-content; */
+   /* font-size: clamp(1rem, 0.5rem + 2.5vw, 3rem); */
+  }
+
+
+  .example-box>ul {
+   list-style: none;
+
+  }
+
+  .example-box>ul>li {
+   list-style: none;
+   color: brown;
+   /* padding-left: 1rem; */
+   font-size: clamp(1rem, 0.5rem + 2.5vw, 3rem);
+
+  }
+
+  .example-box>p:nth-child(1) {
+   /* urdu sentence */
+   color: brown;
+   font-family: 'Noto Nastaliq Urdu';
+   font-size: clamp(2rem,1rem+5vw,4rem);
+  }
+
+
+  .example-box>p:nth-child(3) {
+   /*English meaning*/
+   color: green;
+  }
+
+  ol>li {
+   margin-left: 5px;
+  }
+    .quick-table{
+   border:1px solid green;
+   direction: rtl;
+  }
+  .row-head{
+   color:white;
+   background-color: rgb(105, 105, 190);
+  }
+  .row-head,.row{
+   display: flex;
+   justify-content: space-evenly;
+  }

@@ -1,0 +1,86 @@
+@import url('../../docs/fonts.css');
+body{
+ padding:10px;
+}
+/* font */
+.top-content{
+ display:flex;
+ flex-wrap:wrap;
+ /* justify-content: space-evenly; */
+}
+/* button showArabic float button */
+#btnShowArabic{
+ color:green;
+ position: sticky;
+ position: -webkit-sticky;
+ font-size: clamp(1.5rem,0.5rem+2.5vw,3rem);
+ top: 5vw;
+ right:10px;
+
+}
+#btnShowUrdu{
+ color:green;
+ position: sticky;
+ position: -webkit-sticky;
+ font-size: clamp(1.5rem,0.5rem+2.5vw,3rem);
+ top: 5vw;
+ right:10px;
+ left:10px;
+
+}
+.urdu {
+ font-family: "Jameel Noori Nastaleeq", "Aref Ruqaa",sans-serif;
+}
+h1,h2,.arabic{
+ font-family: 'Noto Naskh Arabic';
+}
+h1 {
+ text-align: center;
+}
+.head,
+.urdu,
+.arabic {
+ font-size: clamp(1.5rem, 0.5rem + 3vw, 3rem);
+ padding:4px;
+}
+
+.table-title {
+ font-size: clamp(1rem, 0.5rem + 3vw, 3rem);
+}
+.table-title{
+ color:green;
+ text-align: center;
+}
+/* colors and styles*/
+.urdu {
+ color: blue;
+}
+.head{
+ color:White;
+ background-color: rgba(140, 84, 84, 0.833);
+}
+.topic{
+ border:1px solid darkgoldenrod;
+ padding:0.5em;
+ 
+}
+/* table */
+.rTable{
+ display: flex;
+ flex-direction: column;
+ direction: rtl;
+}
+.rTableRow{
+ display: flex;
+ /* justify-content: space-between; */
+ border:1px solid burlywood;
+
+}
+
+/* default state for each .arabic element is hidden (0) */
+.rTableRow:hover{
+ background-color: bisque;
+}
+/* .arabic{
+ visibility: hidden;
+} */

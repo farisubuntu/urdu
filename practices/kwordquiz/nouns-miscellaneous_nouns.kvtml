@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE kvtml PUBLIC "kvtml2.dtd" "http://edu.kde.org/kvtml/kvtml2.dtd">
+<kvtml version="2.0">
+  <information>
+    <generator>kwordquiz 21.12.3</generator>
+    <title>nouns-miscellaneous_nouns.kvtml</title>
+    <date>2023-08-05</date>
+  </information>
+  <identifiers>
+    <identifier id="0">
+      <name>Column 1</name>
+      <locale>en</locale>
+    </identifier>
+    <identifier id="1">
+      <name>Column 2</name>
+      <locale>en</locale>
+    </identifier>
+  </identifiers>
+  <entries>
+    <entry id="0">
+      <translation id="0">
+        <text>پانی</text>
+      </translation>
+      <translation id="1">
+        <text>ماء</text>
+      </translation>
+    </entry>
+    <entry id="1">
+      <translation id="0">
+        <text>چائے</text>
+      </translation>
+      <translation id="1">
+        <text>شاي</text>
+      </translation>
+    </entry>
+    <entry id="2">
+      <translation id="0">
+        <text>آدمی</text>
+      </translation>
+      <translation id="1">
+        <text>رجل</text>
+      </translation>
+    </entry>
+    <entry id="3">
+      <translation id="0">
+        <text>عورت</text>
+      </translation>
+      <translation id="1">
+        <text>امرأه</text>
+      </translation>
+    </entry>
+    <entry id="4">
+      <translation id="0">
+        <text>موسم</text>
+      </translation>
+      <translation id="1">
+        <text>طقس</text>
+      </translation>
+    </entry>
+    <entry id="5">
+      <translation id="0">
+        <text>ہوٹل</text>
+      </translation>
+      <translation id="1">
+        <text>هوتيل</text>
+      </translation>
+    </entry>
+    <entry id="6">
+      <translation id="0">
+        <text>انٹرنیٹ</text>
+      </translation>
+      <translation id="1">
+        <text>أنترنت</text>
+      </translation>
+    </entry>
+    <entry id="7">
+      <translation id="0">
+        <text>پنکھا</text>
+      </translation>
+      <translation id="1">
+        <text>معجب/ مشجع - (Fan)</text>
+      </translation>
+    </entry>
+    <entry id="8">
+      <translation id="0">
+        <text>کمرہ</text>
+      </translation>
+      <translation id="1">
+        <text>غرفة</text>
+      </translation>
+    </entry>
+  </entries>
+</kvtml>
