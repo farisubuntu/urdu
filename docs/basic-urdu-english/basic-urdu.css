@@ -23,7 +23,7 @@ body{
 }
 .interactive-content *{
  color:white;
- background-color: rgb(72, 59, 61);
+ background-color: rgb(65, 28, 33);
 }
 h1{
  background-color: rgb(59, 59, 157);;
@@ -37,17 +37,6 @@ h2{
 }
 
 
-
-img.size-full{
- max-width: 400px!important;
- /* max-height: 400px!important; */
-}
-
-/* chapter images */
-
-/* p:has(.aligncenter){
- text-align: center;
-} */
 td,th{
  border:1px solid silver;
 }
@@ -61,4 +50,11 @@ ul{
  color:rgb(129, 48, 39);
  direction: rtl;
  font-size: 1.1rem;
+}
+.ur-latin{
+ color:rgb(31, 71, 31);
+}
+.bi-pencil-fill{
+ padding:5px;
+
 }
