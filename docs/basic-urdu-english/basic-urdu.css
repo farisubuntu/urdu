@@ -23,7 +23,7 @@ body{
 }
 .interactive-content *{
  color:white;
- background-color: rgb(96, 75, 79);
+ background-color: rgb(72, 59, 61);
 }
 h1{
  background-color: rgb(59, 59, 157);;
@@ -56,4 +56,9 @@ thead{
 }
 ul{
  border:1px solid green;
+}
+.ur{
+ color:rgb(129, 48, 39);
+ direction: rtl;
+ font-size: 1.1rem;
 }
