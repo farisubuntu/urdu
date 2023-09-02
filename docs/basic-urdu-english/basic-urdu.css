@@ -14,9 +14,7 @@ body{
    color: brown;
    direction: rtl;
   }
-  td>img{
-   min-width:100%;
-  }
+
 
   article{
    direction: rtl;
@@ -31,7 +29,7 @@ body{
    color:white;
    background-color: rgb(55, 55, 117);
   }
-  
+
 .table{
  color:green;
  /* min-width: 100%!important; */
@@ -64,3 +62,10 @@ img.size-full{
 p:has(.aligncenter){
  text-align: center;
 }
+td,th{
+ border:1px solid silver;
+}
+thead{
+ text-align: center;
+}
+
