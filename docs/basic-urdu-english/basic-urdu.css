@@ -7,19 +7,6 @@ body{
 
   td>p {
    color: green;
-   margin: unset;
-  }
-
-  .urdu {
-   color: brown;
-   direction: rtl;
-  }
-
-
-  article{
-   direction: rtl;
-   border:1px solid green;
-   padding:5px;
   }
 
   i.bi{
@@ -37,17 +24,16 @@ body{
 .interactive-content *{
  color:white;
  background-color: rgb(96, 75, 79);
- overflow-wrap: break-word;
 }
 h1{
  background-color: rgb(59, 59, 157);;
  color:white;
- padding:0.5rem;
+ /* padding:0.5rem; */
 }
 h2{
  background-color: #28A745;
  color:white;
- padding:1rem;
+ /* padding:1rem; */
 }
 
 
@@ -59,13 +45,15 @@ img.size-full{
 
 /* chapter images */
 
-p:has(.aligncenter){
+/* p:has(.aligncenter){
  text-align: center;
-}
+} */
 td,th{
  border:1px solid silver;
 }
 thead{
  text-align: center;
 }
-
+ul{
+ border:1px solid green;
+}
