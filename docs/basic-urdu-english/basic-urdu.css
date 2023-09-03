@@ -58,6 +58,10 @@ ul{
  padding:5px;
 
 }
-.drop-down{
- color:blue;
+#toc *{
+ color:navajowhite;
+}
+
+.navbar-nav *{
+ color:green;
 }
