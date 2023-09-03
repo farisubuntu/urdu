@@ -5,22 +5,16 @@ body{
  /* font-size: ; */
 }
 
-  td>p {
-   color: green;
-  }
+
 
   i.bi{
    font-size: 28px;
   }
   thead{
-   color:white;
-   background-color: rgb(55, 55, 117);
+   color:#f8f2f2;
+   background-color: rgb(1, 1, 16);
   }
 
-.table{
- color:green;
- /* min-width: 100%!important; */
-}
 .interactive-content *{
  color:white;
  background-color: rgb(65, 28, 33);
@@ -37,9 +31,6 @@ h2{
 }
 
 
-td,th{
- border:1px solid silver;
-}
 thead{
  text-align: center;
 }
@@ -48,8 +39,8 @@ ul{
 }
 .ur{
  color:rgb(129, 48, 39);
- direction: rtl;
- font-size: 1.1rem;
+
+ /* font-size: 1.1rem; */
 }
 .ur-latin{
  color:rgb(31, 71, 31);
@@ -58,6 +49,13 @@ ul{
  padding:5px;
 
 }
-.drop-down{
- color:blue;
+#toc *{
+ color:navajowhite;
 }
+
+.navbar-nav *{
+ color:green;
+}
+.bi-volume-up-fill{
+ border:1px solid blue;
+ }
