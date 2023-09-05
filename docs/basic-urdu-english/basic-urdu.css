@@ -19,17 +19,6 @@ body{
  color:white;
  background-color: rgb(65, 28, 33);
 }
-h1{
- background-color: rgb(59, 59, 157);;
- color:white;
- /* padding:0.5rem; */
-}
-h2{
- background-color: #28A745;
- color:white;
- /* padding:1rem; */
-}
-
 
 thead{
  text-align: center;
@@ -37,10 +26,10 @@ thead{
 ul{
  border:1px solid green;
 }
-.ur{
- color:rgb(129, 48, 39);
-
- /* font-size: 1.1rem; */
+.ur,.dir-rtl{
+ color:rgb(232, 38, 17);
+ direction: rtl;
+ font-size: large;
 }
 .ur-latin{
  color:rgb(31, 71, 31);
@@ -56,12 +45,8 @@ ul{
 .navbar-nav *{
  color:green;
 }
-.bi-volume-up-fill{
- border:1px solid blue;
- }
-section.article{
- direction: rtl;
-}
+
+
 
 .article *{
  color:brown;
@@ -78,11 +63,23 @@ font-size: 1rem;
  padding:1rem;
 
 }
-.instructor-vid *{
- color:rgb(58, 4, 4);
 
+
+td.notranslate{
+ color:green;
+}
+span{
+ color:slateblue;
+}
+
+h1{
+ background-color: rgb(59, 59, 157);;
+ color:white;
+ /* padding:0.5rem; */
+}
+h2{
+ background-color: #0b2010;
+ color:white;
+ /* padding:1rem; */
  padding:1rem;
 }
-/* .embed-vid-wrapper > div{
- width: 100%;
-} */
