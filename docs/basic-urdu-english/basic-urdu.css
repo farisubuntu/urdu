@@ -68,3 +68,21 @@ section.article{
  font-size: larger;
  direction: rtl;
 }
+
+.listening{
+ border:2px solid grey;
+}
+.listening *{
+ color:brown;
+font-size: 1rem;
+ padding:1rem;
+
+}
+.instructor-vid *{
+ color:rgb(58, 4, 4);
+
+ padding:1rem;
+}
+/* .embed-vid-wrapper > div{
+ width: 100%;
+} */
