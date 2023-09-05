@@ -59,3 +59,12 @@ ul{
 .bi-volume-up-fill{
  border:1px solid blue;
  }
+section.article{
+ direction: rtl;
+}
+
+.article *{
+ color:brown;
+ font-size: larger;
+ direction: rtl;
+}
