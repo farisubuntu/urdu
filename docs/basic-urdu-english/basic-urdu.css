@@ -29,13 +29,13 @@ ul{
 .ur,.dir-rtl{
  color:rgb(232, 38, 17);
  direction: rtl;
- font-size: large;
+ /* font-size: large; */
 }
 .ur-latin{
  color:rgb(31, 71, 31);
 }
 .bi-pencil-fill{
- padding:5px;
+ /* padding:5px; */
 
 }
 #toc *{
@@ -50,7 +50,7 @@ ul{
 
 .article *{
  color:brown;
- font-size: larger;
+ /* font-size: larger; */
  direction: rtl;
 }
 
@@ -60,7 +60,7 @@ ul{
 .listening *{
  color:brown;
 font-size: 1rem;
- padding:1rem;
+
 
 }
 
@@ -75,11 +75,10 @@ span{
 h1{
  background-color: rgb(59, 59, 157);;
  color:white;
- /* padding:0.5rem; */
 }
 h2{
  background-color: #0b2010;
  color:white;
  /* padding:1rem; */
- padding:1rem;
+
 }
