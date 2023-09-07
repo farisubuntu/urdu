@@ -29,15 +29,11 @@ ul{
 .ur,.dir-rtl{
  color:rgb(232, 38, 17);
  direction: rtl;
- /* font-size: large; */
 }
 .ur-latin{
- color:rgb(31, 71, 31);
+ color:rgb(17, 147, 17);
 }
-.bi-pencil-fill{
- /* padding:5px; */
 
-}
 #toc *{
  color:navajowhite;
 }
