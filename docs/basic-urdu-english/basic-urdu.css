@@ -2,7 +2,9 @@
 
 body{
  font-family: 'Noto Naskh Arabic',serif;
- /* font-size: ; */
+
+ /* font-family: 'Aref Ruqaa', serif; */
+ /* font-size: 2rem; */
 }
 
 
@@ -29,6 +31,7 @@ ul{
 .ur,.dir-rtl{
  color:rgb(232, 38, 17);
  direction: rtl;
+
 }
 .ur-latin{
  color:rgb(17, 147, 17);
