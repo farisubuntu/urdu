@@ -34,7 +34,9 @@ ul{
 
 }
 .ur-latin{
- color:rgb(17, 147, 17);
+ color:rgb(47, 54, 4);
+ border:1px dashed yellowgreen;
+
 }
 
 #toc *{
@@ -79,5 +81,10 @@ h2{
  background-color: #0b2010;
  color:white;
  /* padding:1rem; */
+
+}
+
+td.tg-149k{
+ font-family: 'Noto Nastaliq Arabic',serif;
 
 }
