@@ -59,8 +59,19 @@ for Instructor Video:
 
 - Convert article tables into `article.article`
 
-- put `!شکریہ`
- <h5 class="thanks-tag"><strong><span class="dir-rtl notranslate ur">!شکریہ</span></strong></h5>
+- change `!شکریہ` from:
+
+```html
+<h5 class="thanks-tag"><strong><span class="dir-rtl notranslate ur">!شکریہ</span></strong></h5>
+```
+ To:
+ ```html
+ <div class="thanks-wrapper d-flex align-items-center justify-content-center  text-center p-2">
+      <!-- <h5 class="thanks-tag"> -->
+       <strong>!شکریہ&nbsp;</strong>
+      <!-- </h5> -->
+     </div>
+ ```
 
 <!-- To do  -->
 - clean all embed videos by convert it into bootstrap classes, see: (https://getbootstrap.com/docs/4.0/utilities/embed/)

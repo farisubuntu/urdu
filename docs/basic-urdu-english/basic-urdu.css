@@ -104,3 +104,8 @@ border-radius:30% 10% 30% 10% / 30% 10% 10% 10%;
  margin:auto;
  color: white;
 }
+span.AR{
+ color:red;
+ margin-left: 10%;
+background-color: silver;
+}
