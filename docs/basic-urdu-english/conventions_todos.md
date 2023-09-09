@@ -59,3 +59,7 @@ for Instructor Video:
 
 - Convert article tables into `article.article`
 
+
+
+<!-- To do  -->
+- clean all embed videos by convert it into bootstrap classes, see: (https://getbootstrap.com/docs/4.0/utilities/embed/)
