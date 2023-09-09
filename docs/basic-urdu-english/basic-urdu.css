@@ -109,3 +109,7 @@ span.AR{
  margin-left: 10%;
 background-color: silver;
 }
+
+div.button-wrapper{
+ float:left;
+}
