@@ -88,3 +88,19 @@ td.tg-149k{
  font-family: 'Noto Nastaliq Arabic',serif;
 
 }
+.img-fluid{
+ max-width: 300px!important;
+ max-height: 300px!important;
+
+}
+
+.thanks-wrapper{
+ background: content-box radial-gradient(crimson, skyblue);
+/* border: 1px solid blue;*/
+border-radius:30% 10% 30% 10% / 30% 10% 10% 10%;
+
+ width:100px;
+ height: 50x;
+ margin:auto;
+ color: white;
+}
