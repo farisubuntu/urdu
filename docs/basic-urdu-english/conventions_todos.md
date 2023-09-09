@@ -1,7 +1,7 @@
 for listening:
 ```html
 <div class="mt-1"></div>
-    <h2 class="text-center"><strong>Listening</strong></h2>
+    <h2 class="text-center py-2"><strong>Listening</strong></h2>
     <details class="listening">
     <p class="h3 alert alert-success border border-info" role="alert">
      <summary><svg xmlns="http://www.w3.org/2000/svg"
@@ -43,7 +43,7 @@ for Instructor Video:
     <p style="text-align: left"><strong>Instructor Video: <a
        href="https://mediaspace.msu.edu/media/Conversation+2.2/1_ipc9gles"
        data-url="https://mediaspace.msu.edu/media/Conversation+2.2/1_ipc9gles">تعارف</a></strong></p>
-    <h2 class="text-center">Question &amp; Answer</h2>
+    <h2 class="text-center py-2">Question &amp; Answer</h2>
     <div class="textbox interactive-content"><span class="interactive-content__icon"></span>
      <p><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-pencil-fill"
        viewBox="0 0 16 16">
