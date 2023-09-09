@@ -56,3 +56,6 @@ for Instructor Video:
      </p>
     </div>
 ```
+
+- Convert article tables into `article.article`
+
