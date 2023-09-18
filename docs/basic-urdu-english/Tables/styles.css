@@ -3,7 +3,10 @@
 }
 
 body {
- font-size: 2vw;
+ font-size: 3vw;
+}
+.wrapper{
+  padding:1rem;
 }
 
 
@@ -35,6 +38,7 @@ body {
 
 .arb {
  flex: 3;
+ color:green;
 }
 
 .notranslate {
@@ -43,10 +47,12 @@ body {
 
 .urdu {
  flex: 3;
+ color:red;
 }
 
 .example {
  flex: 6;
+ color:blue;
 }
 details{
   padding:1rem;

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="rtl">
 
 <head>
  <meta charset="UTF-8" />
@@ -10,20 +10,22 @@
  <link
   href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa&family=Gulzar&family=Noto+Naskh+Arabic&family=Noto+Nastaliq+Urdu&display=swap"
   rel="stylesheet" />
- <link rel="stylesheet" href="docs/main.css" />
+ <!-- <link rel="stylesheet" href="docs/main.css" /> -->
  <style>
-  img {
-   float: right;
-  }
+ 
 
   header {
    display: flex;
-   direction: rtl;
+  
   }
 
   header>button {
    color: blue;
    font-size: 20px;
+  }
+
+  li {
+
   }
  </style>
  <title>Urdu - Home</title>
@@ -35,23 +37,23 @@
    لعرض الصفحة مترجمة للعربية انسخ الرابط
   </button>
  </header>
- <img src="docs/Grammar_urdu.png" alt="no found" width="40%" />
- <h1>Topics</h1>
+ <div class="img-wrapper"><img src="docs/Grammar_urdu.png" alt="no found" width="40%" /></div>
+ <h1>المحتويات</h1>
  <ul>
   <li>
-   <a href="docs/nouns.html">Nouns</a> |
-   <a href="./practices/WordsBank/nouns/nouns_words.html">Words Bank</a>
+   <a href="docs/nouns.html">درس عن الأسماء</a> |
+   <a href="./practices/WordsBank/nouns/nouns_words.html">بنك الكلمات</a>
   </li>
-  <li><a href="docs/pronouns.html">Pronouns</a></li>
+  <li><a href="docs/pronouns.html">الضمائر</a></li>
   <li>
    <a href="practices/WordsBank/prepositions/prepositions.html">حروف الجر</a>
   </li>
   <li>
-   <a href="docs/verbs.html">Verbs</a> |
-   <a href="./practices/WordsBank/verbs/verbs_words.html">Words Bank</a>
+   <a href="docs/verbs.html">درس عن الأفعال</a> |
+   <a href="./practices/WordsBank/verbs/verbs_words.html">بنك الكلمات</a>
   </li>
   <li><a href="docs/congurations.html">Verb Congurations</a></li>
-  <li><a href="./urdu_keyboard_layout.html">Urdu Keyboard </a></li>
+  
   <!-- <li><a href="https://openbooks.lib.msu.edu/urdu/part/chapter-2/">Browse Book: Basic Urdu</a></li> -->
   <h2>Basic Urdu - Books</h2>
   <ul class="basic-urdu-book">
@@ -61,10 +63,18 @@
    <li>
     <a href="docs/basic-urdu-english/index.html">Basic Urdu - Seperated</a>
    </li>
-   <h3>Tables</h3>
+   <h3>الجداول</h3>
    <ul class="tables">
     <li class="6-6"><a href="./docs/basic-urdu-english/Tables/common-used-verbs-6.6.html">6.6: Common Verbs</a></li>
    </ul>
+  </ul>
+
+  <h3>روابط لتعلم اللغة الأردية</h3>
+  <ul class="outside-links">
+   <li>
+    <div class="img-wrapper"><a id="img-wrapper" href="https://www.lingohut.com/ar/l128"><img
+       src="./images/lingoHut.png" alt="lingohut.com"></a></div>
+   </li>
   </ul>
  </ul>
 
