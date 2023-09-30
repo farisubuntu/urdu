@@ -1,7 +1,7 @@
 @import url('../fonts.css');
 
-body{
- font-family: 'Noto Naskh Arabic',serif;
+body,article *,span{
+ font-family: 'Noto Naskh Arabic',serif!important;
 
  /* font-family: 'Aref Ruqaa', serif; */
  /* font-size: 2rem; */
