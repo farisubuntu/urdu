@@ -1,13 +1,13 @@
-@import url('../fonts.css');
+@import url('../../site-styles/w3.css');
+@import url('/urdu-fonts/urdu-fonts.css');
+/* @import url('../fonts.css'); */
 
-body{
- font-family: 'Noto Naskh Arabic',serif;
+body,article *,span{
+ font-family: 'Noto Naskh Arabic',serif!important;
 
  /* font-family: 'Aref Ruqaa', serif; */
  /* font-size: 2rem; */
 }
-
-
 
   i.bi{
    font-size: 28px;
@@ -18,8 +18,10 @@ body{
   }
 
 .interactive-content *{
- color:white;
- background-color: rgb(65, 28, 33);
+ color:rgb(57, 34, 204);
+ background-color: rgb(180, 214, 129);
+ text-align: center;
+
 }
 
 thead{
@@ -78,8 +80,8 @@ h1{
  color:white;
 }
 h2{
- background-color: #0b2010;
- color:white;
+ background-color: #81a589;
+ color:rgb(182, 96, 16);
  /* padding:1rem; */
 
 }
@@ -112,4 +114,19 @@ background-color: silver;
 
 div.button-wrapper{
  float:left;
+}
+/* animation  */
+h1 {
+  animation: cssAnimation_0 5000ms 1 linear 1000ms;
+  color: yellow;
+}
+
+@keyframes cssAnimation_0 {
+  to {
+    border: 17px groove rgb(241, 237, 7);
+    border-radius: 23px;
+  }
+}
+tr:hover{
+  background-color:bisque!important;
 }
