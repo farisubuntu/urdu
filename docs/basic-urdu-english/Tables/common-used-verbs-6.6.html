@@ -9,108 +9,11 @@
       Need a visual blank slate?
       Remove all code in `styles.css`!
     -->
+  <link href='https://fonts.googleapis.com/css?family=Noto Naskh Arabic' rel='stylesheet'>
   <link rel="stylesheet" href="styles.css" />
   <script type="module" src="script.js"></script>
   <style>
-    * {
-      box-sizing: border-box;
-    }
 
-    .td {
-      font-size: larger;
-    }
-
-    .wrapper {
-      padding: 1rem;
-      text-align: center;
-
-    }
-
-
-    .thead,
-    .tbody {
-      display: flex;
-      flex-direction: column;
-      flex-wrap: wrap;
-    }
-
-    .td,
-    .th {
-      border: 1px solid blue;
-      text-align: center;
-    }
-
-    .thead {
-      background-color: gainsboro;
-      text-align: center;
-    }
-
-    .tr {
-      display: flex;
-      flex-wrap: wrap;
-    }
-
-    .tr:hover {
-      background-color: rgb(255, 190, 110);
-    }
-
-    .arb {
-      flex: 3;
-      color: green;
-    }
-
-    .notranslate {
-      flex: 1;
-      direction: ltr;
-    }
-
-    .urdu {
-      flex: 3;
-      color: red;
-    }
-
-    .example {
-      flex: 6;
-      color: blue;
-    }
-
-    details {
-      padding: 1rem;
-    }
-
-    /* @media */
-
-    @media (max-width: 350px) {
-
-      body {
-        font-size: 2.5vw;
-      }
-
-      .thead {
-        display: none;
-      }
-
-      .tbody {
-        row-gap: 5px;
-      }
-
-      .notranslate {
-        flex: 19%;
-      }
-
-      .arb,
-      .urdu {
-        flex: 40%;
-      }
-
-      .example {
-        flex: 100%;
-      }
-    }
-
-    .red {
-      color: red;
-    }
   </style>
 </head>
 
@@ -150,7 +53,7 @@
         <div class="td arb">To يفعل</div>
         <div class="td notranslate"><em>tr.</em></div>
         <div class="td dir-rtl f-14 urdu"><strong>کرنا</strong></div>
-        <div class="td dir-rtl urdu example">Example</div>
+        <div class="td dir-rtl urdu example">تم کيا کرنا</div>
       </div>
       <div class="tr">
         <div class="td arb">To يذهب</div>
@@ -182,7 +85,7 @@
         <div class="td dir-rtl f-14 urdu">
           <strong>پہنچنا</strong>
         </div>
-        <div class="td dir-rtl urdu example">Example</div>
+        <div class="td dir-rtl urdu example">والد گھر پہنچ گئے</div>
       </div>
       <div class="tr">
         <div class="td arb" title="return">To يعود</div>
@@ -214,7 +117,7 @@
         <div class="td dir-rtl f-14 urdu">
           <strong>کسرت کرنا</strong>
         </div>
-        <div class="td dir-rtl urdu example">Example</div>
+        <div class="td dir-rtl urdu example">وہ فٹ بال کی مشق کرتا ہے۔</div>
       </div>
       <div class="tr">
         <div class="td arb">To يأكل</div>
@@ -238,7 +141,7 @@
         <div class="td dir-rtl f-14 urdu">
           <strong>پینا</strong>
         </div>
-        <div class="td dir-rtl urdu example">Example</div>
+        <div class="td dir-rtl urdu example">عمر پانی پیتا ہے</div>
       </div>
       <div class="tr">
         <div class="td arb">To يموت</div>
@@ -286,7 +189,7 @@
         <div class="td dir-rtl f-14 urdu">
           <strong>آرام کرنا</strong>
         </div>
-        <div class="td dir-rtl urdu example">Example</div>
+        <div class="td dir-rtl urdu example">میرے دادا آرام کر رہے ہیں۔</div>
       </div>
       <div class="tr">
         <div class="td arb">To يقرأ/يدرس</div>
@@ -342,7 +245,7 @@
         <div class="td dir-rtl f-14 urdu">
           <strong>سننا</strong>
         </div>
-        <div class="td dir-rtl urdu example">Example</div>
+        <div class="td dir-rtl urdu example"> جلد ہی تم ایک اچھی خبر سننا</div>
       </div>
       <div class="tr">
         <div class="td arb">To يجيب</div>
@@ -356,7 +259,7 @@
         <div class="td arb">To يتعلم</div>
         <div class="td notranslate"><em>tr.</em></div>
         <div class="td dir-rtl f-14 urdu"><strong>سیکھنا</strong></div>
-        <div class="td dir-rtl urdu example">Example</div>
+        <div class="td dir-rtl urdu example" title="I learn Urdu">میں اردو سیکھتا ہوں۔</div>
       </div>
       <div class="tr">
         <div class="td arb">To عكس</div>
@@ -551,12 +454,12 @@
         <div class="td dir-rtl urdu example">Example</div>
       </div>
       <div class="tr">
-        <div class="td arb">To سامح</div>
+        <div class="td arb">To يسامح</div>
         <div class="td notranslate"><em>tr.</em></div>
         <div class="td dir-rtl f-14 urdu">
           <strong>معاف کرنا</strong>
         </div>
-        <div class="td dir-rtl urdu example">Example</div>
+        <div class="td dir-rtl urdu example">مجھے معاف کر دو</div>
       </div>
     </div>
   </div>

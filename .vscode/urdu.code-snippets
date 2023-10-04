@@ -27,5 +27,12 @@
 		"</div>"					
 	]
 
+ },
+	"span class ar notranslat":{
+	"scope": "html",
+	"prefix": "عربك",
+	"body": [
+		"<span class=\"ar notranslate\">$1</span>"
+	]
 }
 }
