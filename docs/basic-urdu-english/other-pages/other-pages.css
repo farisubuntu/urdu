@@ -17,3 +17,28 @@ header{
 .ar{
  color:green;
 }
+/* 
+.flexer{
+ display: flex;
+ align-items:last center;
+  justify-content: center;
+} */
+/* .ur{
+ display: flex;
+ flex-direction: column;
+} */
+/* p{
+ max-height: 200px;
+} */
+
+.grid{
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ gap:5px;
+}
+p:nth-child(odd){
+ color:brown;
+}
+p:nth-child(even){
+ color:green;
+}
