@@ -34,5 +34,16 @@
 	"body": [
 		"<span class=\"ar notranslate\">$1</span>"
 	]
+},
+"box with img":{
+	"scope":"html",
+	"prefix":"div-box",
+	"body": [
+		"<div class=\"box\">
+		<div class=\"img-wrapper\"><img src=\"$1\" alt=\"bus\"></div>
+		<span class=\"ar notranslate\">$2</span>
+</div>"
+	]
 }
+
 }
