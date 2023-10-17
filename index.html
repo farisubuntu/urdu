@@ -2,76 +2,74 @@
 <html lang="en" dir="rtl">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa&family=Gulzar&family=Noto+Naskh+Arabic&family=Noto+Nastaliq+Urdu&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="docs/main.css" />
-    
-    <style>
-        header {
-            display: flex;
+ <meta charset="UTF-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+ <link rel="preconnect" href="https://fonts.googleapis.com" />
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+ <link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa&family=Gulzar&family=Noto+Naskh+Arabic&family=Noto+Nastaliq+Urdu&display=swap" rel="stylesheet" />
+ <link rel="stylesheet" href="docs/main.css" />
 
-        }
+ <style>
+  header {
+   display: flex;
 
-        header>button {
-            color: blue;
-            font-size: 20px;
-        }
+  }
 
-    </style>
-    <title>Urdu - Home</title>
+  header>button {
+   color: blue;
+   font-size: 20px;
+  }
+ </style>
+ <title>Urdu - Home</title>
 </head>
 
 <body>
-    <header>
-        <button lang="ar" id="translate" onclick="translateFunc()">
-            لعرض الصفحة مترجمة للعربية انسخ الرابط
-        </button>
-    </header>
-    <div class="img-wrapper"><img src="docs/Grammar_urdu.png" alt="no found" width="40%" /></div>
-    <h1>المحتويات</h1>
-    <ul>
-        <li>
-            <a href="docs/nouns.html">درس عن الأسماء</a> |
-            <a href="./practices/WordsBank/nouns/nouns_words.html">بنك الكلمات</a>
-        </li>
-        <li><a href="docs/pronouns.html">الضمائر</a></li>
-        <li>
-            <a href="practices/WordsBank/prepositions/prepositions.html">حروف الجر</a>
-        </li>
-        <li>
-            <a href="docs/verbs.html">درس عن الأفعال</a> |
-            <a href="./practices/WordsBank/verbs/verbs_words.html">بنك الكلمات</a>
-        </li>
-        <li><a href="docs/congurations.html" title="Verbs Congurations">تصريف الفعل</a></li>
+ <header>
+  <button lang="ar" id="translate" onclick="translateFunc()">
+   لعرض الصفحة مترجمة للعربية انسخ الرابط
+  </button>
+ </header>
+ <div class="img-wrapper"><img src="docs/Grammar_urdu.png" alt="no found" width="40%" /></div>
+ <h1>المحتويات</h1>
+ <ul>
+  <li>
+   <a href="docs/nouns.html">درس عن الأسماء</a> |
+   <a href="./practices/WordsBank/nouns/nouns_words.html">بنك الكلمات</a>
+  </li>
+  <li><a href="docs/pronouns.html">الضمائر</a></li>
+  <li>
+   <a href="practices/WordsBank/prepositions/prepositions.html">حروف الجر</a>
+  </li>
+  <li>
+   <a href="docs/verbs.html">درس عن الأفعال</a> |
+   <a href="./practices/WordsBank/verbs/verbs_words.html">بنك الكلمات</a>
+  </li>
+  <li><a href="docs/congurations.html" title="Verbs Congurations">تصريف الفعل</a></li>
+  <!-- <li><a href="https://openbooks.lib.msu.edu/urdu/part/chapter-2/">Browse Book: Basic Urdu</a></li> -->
+  <h2>Basic Urdu - Books</h2>
+  <ul class="basic-urdu-book">
+   <li>
+    <a href="docs/basic-urdu-english/original_xhtml_copy.html" title="Browse Book - One Page">إستعراض الكتاب - صفحة واحدة</a>
+   </li>
+   <li>
+    <a href="docs/basic-urdu-english/index.html" title="Basic Urdu - Seperated">استعراض الكتاب بحسب المحتويات</a>
+   </li>
+   <h3>الجداول</h3>
+   <ul class="tables">
+    <li class="6-6"><a href="./docs/basic-urdu-english/Tables/common-used-verbs-6.6.html" title="6.6: Common Verbs">6.6 الأفعال الشائعة</a></li>
+   </ul>
+  </ul>
+  <li><a href="./mondly/basic_vocabularies.html"><img src="./mondly/mondly-logo.jpeg" width="50" alt="">Mondly</a></li>
+  <h3>روابط لتعلم اللغة الأردية</h3>
+  <ul class="outside-links">
+   <li>
+    <div class="img-wrapper"><a id="img-wrapper" href="https://www.lingohut.com/ar/l128"><img src="./images/lingoHut.png" alt="lingohut.com"></a></div>
+   </li>
+  </ul>
+ </ul>
 
-        <!-- <li><a href="https://openbooks.lib.msu.edu/urdu/part/chapter-2/">Browse Book: Basic Urdu</a></li> -->
-        <h2>Basic Urdu - Books</h2>
-        <ul class="basic-urdu-book">
-            <li>
-                <a href="docs/basic-urdu-english/original_xhtml_copy.html" title="Browse Book - One Page">إستعراض الكتاب - صفحة واحدة</a>
-            </li>
-            <li>
-                <a href="docs/basic-urdu-english/index.html" title="Basic Urdu - Seperated">استعراض الكتاب بحسب المحتويات</a>
-            </li>
-            <h3>الجداول</h3>
-            <ul class="tables">
-                <li class="6-6"><a href="./docs/basic-urdu-english/Tables/common-used-verbs-6.6.html" title="6.6: Common Verbs">6.6 الأفعال الشائعة</a></li>
-            </ul>
-        </ul>
-
-        <h3>روابط لتعلم اللغة الأردية</h3>
-        <ul class="outside-links">
-            <li>
-                <div class="img-wrapper"><a id="img-wrapper" href="https://www.lingohut.com/ar/l128"><img src="./images/lingoHut.png" alt="lingohut.com"></a></div>
-            </li>
-        </ul>
-    </ul>
-
-    <script src="scripts.js"></script>
+ <script src="scripts.js"></script>
 </body>
 
 </html>
