@@ -1,0 +1,12 @@
+
+body{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-content: center;
+}
+
+.size-full{
+ width:50%;
+ height: 200px;
+}
